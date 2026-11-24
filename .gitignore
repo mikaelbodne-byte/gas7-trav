@@ -1,0 +1,30 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*service_role*
+*secret*
+*.sqlite
+*.sqlite3
+*.db
+
+# Archives and datasets must live in Google Drive, not GitHub
+data/
+archives/
+backups/
+*.jsonl
+*.jsonl.gz
+*.parquet
+*.csv
+*.zip
+
+# Python / Windows
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.DS_Store
+Thumbs.db
